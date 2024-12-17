@@ -4,7 +4,7 @@ import { Loader2, Plus } from 'lucide-react'
 
 import { useNewAccount } from '@/features/accounts/hooks/use-new-account'
 import { useGetAccounts } from '@/features/accounts/api/use-get-accounts'
-import { useBulkDeleteAccounts } from '@/features/accounts/api/use-bulk-delete'
+import { useBulkDeleteAccounts } from '@/features/accounts/api/use-bulk-delete-accounts'
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'

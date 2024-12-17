@@ -4,7 +4,7 @@ import { Loader2, Plus } from 'lucide-react'
 
 import { useNewCategory } from '@/features/categories/hooks/use-new-category'
 import { useGetCategories } from '@/features/categories/api/use-get-categories'
-import { useBulkDeleteCategories } from '@/features/categories/api/use-bulk-delete'
+import { useBulkDeleteCategories } from '@/features/categories/api/use-bulk-delete-categories'
 
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
