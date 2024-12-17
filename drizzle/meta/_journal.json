@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1734328119423,
+      "tag": "0000_elite_sally_floyd",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1734329551753,
+      "tag": "0001_common_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1734356935779,
+      "tag": "0002_lean_nuke",
+      "breakpoints": true
+    }
+  ]
+}
