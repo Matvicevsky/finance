@@ -20,7 +20,7 @@ export const AccountFilter = () => {
 
 	const params = useSearchParams()
 	const accountId = params.get('accountId') || 'all'
-	const form = params.get('form') || ''
+	const from = params.get('from') || ''
 	const to = params.get('to') || ''
 
 	const { isLoading: isSummaryLoading } = useGetSummary()
@@ -29,7 +29,7 @@ export const AccountFilter = () => {
 	const onChange = (newValue: string) => {
 		const query = {
 			accountId: newValue,
-			form,
+			from,
 			to,
 		}
 
